@@ -1,5 +1,6 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  #get "users/new"
+  resources :users
   # You can have the root of your site routed with "root"
   root 'static_pages#home'
   match '/signup',  to: 'users#new',            via: 'get'
