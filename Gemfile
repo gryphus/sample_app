@@ -30,6 +30,8 @@ group :test do
    gem 'libnotify', '0.8.0'
 
    gem 'factory_girl_rails', '4.2.1'
+   gem 'cucumber-rails', '1.4.0', :require => false
+   gem 'database_cleaner', github: 'bmabey/database_cleaner'
 
   # Uncomment these lines on Windows.
   # gem 'rb-notifu', '0.0.4'
